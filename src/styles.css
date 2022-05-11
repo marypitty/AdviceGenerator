@@ -1,0 +1,71 @@
+body {
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    height: 260px;
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+@media(max-width: 48rem) {
+    .card {
+        height: fit-content;
+        width: 72vw;
+    }
+}
+
+@media(max-width: 48rem) {
+    #line {
+        width: 270px;
+        margin-bottom: 15px;
+    }
+}
+
+#advice-id {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    font-size: small;
+}
+
+#advice-text{
+font-size: 28px;
+text-align: center;
+
+}
+
+#dice {
+    background-color: hsl(150, 100%, 66%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    bottom: 30px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
